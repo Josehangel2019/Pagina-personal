@@ -7,22 +7,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="wrapper">
+    <aside>
     <header>
         <h1>¡Hola, soy Josehangel Robles Barajas!</h1>
-        <p>Desarrollador web en formación apasionado por HTML, CSS y Python.</p>
-        <nav>
-            <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+        <p>Desarrollador web en formación apasionado por HTML, CSS, Kotlin y Python.</p>
     </header>
-
+    <nav>
+        <ul>
+            <li class="sectores"><a href="#sobre-mi">Sobre mí</a></li>
+            <li class="sectores"><a href="#proyectos">Proyectos</a></li>
+            <li class="sectores"><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <p>&copy; 2024 Josehangel Robles Barajas. Todos los derechos reservados.</p>
+    </footer>
+    </aside>
+    <main>
     <section id="sobre-mi">
         <h2>Sobre Mí</h2>
-        <p>Soy un programador en crecimiento, interesado en mejorar mis habilidades y aprender nuevas tecnologías.</p>
-        <img src="images/perfil.jpg" alt="Foto de perfil" width="150">
+        <p class="descripcion"> Mi nombre es Josehangel Robles Barajas, tengo 19 años y soy un programador en formación con conocimientos básicos en HTML, CSS, kotlin y Python, y me estoy enfocando en desarrollar mis habilidades en creación de páginas web, aplicaciones moviles y herramientas sencillas. He trabajado en proyectos iniciales como un generador de contraseñas y una página web personal (Actualmente estoy trabajando en diferentes proyectos como una ecommerce y terminando un curso orientado al desarrollo de aplicaciones para android), y me apasiona aprender más sobre programación y mejorar mi perfil profesional. Estoy comprometido a seguir instruyéndome para adquirir conocimientos avanzados y poder contribuir a proyectos significativos en el futuro.</p>
+        <img class="img-perfil" src="images/perfil.jpg" alt="Foto de perfil" width="150" style="justify-content: center;">
     </section>
 
     <section id="proyectos">
@@ -35,24 +42,22 @@
                     <a href="https://github.com/Josehangel2019/GDC-Generador-de-contrase-as-" target="_blank">Ver en GitHub</a>
                 </div>
             </section>
-        
-            <li><a href="#">Conversor de moneda</a></li>
-            <li><a href="#">Juego de adivinanza</a></li>
+
         </ul>
     </section>
 
     <section id="contacto">
         <h2>Contacto</h2>
         <p>Encuéntrame en:</p>
-        <ul>
-            <li><a href="https://www.instagram.com/josehangel.15/" target="_blank">instagram</a></li>
-            <li><a href="https://github.com/Josehangel2019" target="_blank">GitHub</a></li>
-            <li><a href="https://Linkdln.com" target="_blank">Linkdln</a></li>
+        <ul class="contactos">
+            <li><a href="https://www.instagram.com/josehangel.15/" target="_blank"><img src="Logo.ig.jpg" alt="ig" width="20">instagram</a></li>
+            <li><a href="https://github.com/Josehangel2019" target="_blank"><img src="Images/git.png" alt="git" width="20">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/josehangel-robles-b092a0259/" target="_blank"><img src="Images/link.png" alt="link" width="20">Linkdln</a></li>
+            <li><a href="https://drive.google.com/drive/folders/132_YimMsQW5ZgN6z77JChl5s_qM2miPA?usp=sharing" target="_blank">📑Mis certificados</a></li>
         </ul>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Josehangel Robles Barajas. Todos los derechos reservados.</p>
-    </footer>
+    </main>
+    
+    </div>
 </body>
 </html>

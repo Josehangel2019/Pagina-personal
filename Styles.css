@@ -1,31 +1,73 @@
 /* Estilos globales */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+h1, h2, h3, h4, h5, h6, p, a, input, textarea {
+    margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+ul {
+    list-style-type: none;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav a {
-    color: white;
+a {
     text-decoration: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(1, 107, 98);
+    padding: 2px;
+}
+
+aside {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+.sectores {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+p {
+    font-size: 1.2rem;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+.descripcion {
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.contactos {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 section {
@@ -36,12 +78,3 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
